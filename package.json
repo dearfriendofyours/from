@@ -2,9 +2,10 @@
   "name": "node_first_app",
   "version": "1.0.0",
   "description": "as title says",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "dear friend",
   "license": "ISC"
